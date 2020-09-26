@@ -1,0 +1,37 @@
+{
+	"name": "ds-algo",
+	"version": "1.0.0",
+	"description": "All the data structures and algorithms basics in js",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon --exec babel-node src/index",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/akhil9tiet/ds-algo-js.git"
+	},
+	"keywords": [
+		"datastructures;",
+		"algorithms;",
+		"javascript"
+	],
+	"author": "Akhil Gupta",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/akhil9tiet/ds-algo-js/issues"
+	},
+	"homepage": "https://github.com/akhil9tiet/ds-algo-js#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.11.6",
+		"@babel/node": "^7.10.5",
+		"@babel/preset-env": "^7.11.5",
+		"nodemon": "^2.0.4"
+	}
+}
